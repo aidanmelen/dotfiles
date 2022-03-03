@@ -12,6 +12,4 @@ else
     cp -f ~/dotfiles/.zshrc $HOME/.zshrc
 fi
 
-sudo chsh -s /usr/bin/zsh
-
-
+chsh -s /usr/bin/zsh
