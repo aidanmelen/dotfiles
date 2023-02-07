@@ -15,6 +15,8 @@
 
 # source $ZSH/oh-my-zsh.sh
 
+export GPG_TTY=$(tty)
+
 # User configuration
 
 alias zshconfig="vim ~/.zshrc"
